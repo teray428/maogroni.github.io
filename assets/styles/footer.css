@@ -1,0 +1,23 @@
+#footer{
+    background-color: #99BC85;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+    
+}
+#footer p{
+    text-align: center;
+}
+
+.footer-container {
+
+padding: 10px 0;
+}
+
+#footer-container {
+
+    background-color:#99BC85;
+    max-width: 1280px;
+    margin: auto ;
+}

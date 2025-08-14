@@ -1,0 +1,62 @@
+.cards{    
+    width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 20px;    
+    background-color: #99BC85;
+    box-shadow: 10px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    gap: 40px;
+      justify-content: center;
+    margin: 20px;
+    padding: 24px 20px;
+    ;
+    
+}
+.column-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin: 100px;
+    
+}
+
+.cards img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+
+.card-footer {
+    padding: 14px 18px;
+}
+.cards h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #151515;
+    text-align: center;
+}
+.review-cards{
+    background-color: #f0f0f0;
+    width: 100%;
+ 
+}
+
+
+
+   @media only screen and (max-width: 768px){
+    .column-cards{
+        margin: auto;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+   
+}

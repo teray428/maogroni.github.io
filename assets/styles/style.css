@@ -1,0 +1,68 @@
+@import "review.css";
+@import "product.css";
+@import "order.css";
+@import "thankyou.css";
+@import "contact.css";
+@import"button.css";
+@import "footer.css";
+@import "about.css";
+@import "product.css";
+@import"card.css";
+@import "navbar.css";
+@import"hero-banner.css";
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.container{
+    max-width:  1280px; 
+    margin: 0 auto;
+}
+body{
+    background-color: #E4EFE7; 
+}
+.products-section h1{
+  text-align: center;
+  margin-left: 100px;
+  margin: 20px 0;
+  font-size: 2em;
+}
+
+
+
+ /*   .hero-image img{
+    height: 600%;
+    width: 60%; 
+}
+.footer p{
+    color: #151515;
+    text-align: center;
+}
+
+   /* .about h1{
+    margin-bottom: 10px;
+} 
+.about p{
+    text-overflow: ellipsis;
+    text-align: justify; 
+ }
+ 
+
+
+ #footer-container{
+    background-color:#99BC85;
+    max-width: 1280px;
+    margin: auto ;
+}
+
+
